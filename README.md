@@ -5,7 +5,7 @@ A Vue.js project with Ionic. This is an application with goal to save items that
 ### Build and Run
 ```
 # clone this ptoject
-npm install
+git clone https://github.com/KarineLiuti/ToDoList-Ionic-Vue.git
 
 # install dependencies
 npm install
