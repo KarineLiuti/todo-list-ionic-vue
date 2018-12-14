@@ -23,8 +23,6 @@
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
   data() {
     return {
@@ -37,7 +35,7 @@ export default {
     }
   },
   created() {
-    axios.get('http://localhost:3001/todos')
+    this.$api.getAll()
       .then(res => this.todos = res.data)
   }
 }

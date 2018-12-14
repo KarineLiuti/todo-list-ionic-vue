@@ -2,20 +2,30 @@
 
 A Vue.js project with Ionic. This is an application with goal to save items that we have to do.
 
-### Build and Run
-```
-# clone this ptoject
-git clone https://github.com/KarineLiuti/ToDoList-Ionic-Vue.git
+### Run and Build
 
-# install dependencies
-npm install
+1. Clone this project
 
-# Json-server at port 3001
-json-server db.json --watch --port 3001
+    ```bash
+    $ git clone https://github.com/KarineLiuti/ToDoList-Ionic-Vue.git
+    ```
 
-# Run application at localhost:8080
-npm run dev
+1. Install dependencies
+    ```bash
+    $ yarn
+    ``` 
 
-# build for production with minification
-npm run build
-```
+1. Start the mock API
+    ```bash
+    $ yarn api
+    ```
+
+1. Run the app in development mode (available at [http://localhost:8080](http://localhost:8080))
+    ```bash
+    $ yarn dev
+    ```
+
+1. When suitable, optmize for production
+    ```bash
+    $ yarn dev
+    ```
